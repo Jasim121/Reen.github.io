@@ -1,0 +1,316 @@
+/*
+Header css
+*/
+.mini-header{
+	background-color: #f5f7fa;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	border-bottom: 1px solid #e6e9ed;
+}
+.header-contact span:first-child{
+	margin-right: 20px;
+
+}
+.header-content,.fa-envelope{
+	color: #506a85;
+	margin-right: 8px;
+	font-size: 12px;
+}
+.header-content,.fa-mobile-alt{
+    color: #506a85;
+	margin-right: 8px;	
+	font-size: 12px;
+}
+.header-social{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+	display: block;
+	width: 100%;
+}
+.header-social li{
+	display: inline-block;
+}
+.header-social li:last-child{
+	margin-right: 0px;
+}
+.header-social li a{
+	color: #506a85;
+	margin:0 10px;
+	font-size: 12px;
+}
+.header-social li a:hover, .header-social li a:active, .header-social li a:visited{
+	color: #4277ad;
+}
+
+/*main header*/
+.main-header{
+	height: 112px;
+	padding: 35px 0;
+}
+.menu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+	display: block;
+	width: 100%;
+}
+.menu li{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.menu li a{
+	text-transform: uppercase;
+	color: #506a85;
+	margin:0 5px;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+/*
+End Mini Header css
+*/
+/*
+Banner css
+*/
+.banner-area{
+	height: 880px;
+	background: #506a87;
+	background: url(../img/banner.jpg) no-repeat; 
+	background-size: cover;
+}
+.banner-area h1{
+	display: block;
+	width: 100%;
+}  
+.banner-area-content{
+	width: 960px;
+	max-width: 100%;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: 300px;
+}
+
+.banner-area-content h1{
+	width: 100%;
+	font-weight: bold;
+	font-size: 36px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.banner-area-content p{
+	width: 100%;
+	font-size:24px;
+	color: #a3b1bf;
+	margin-top: 36px;
+}
+.banner-area-btn{
+	background-color: #00bc9c;
+	border: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 25px 70px;
+	margin-top:70px;
+}
+
+.banner-area-btn:hover{
+	background-color: #506a85;
+}
+
+/*
+End MiniBeader css
+*/
+
+/*
+solution css
+*/
+
+.soluction-area-content{
+	width: 804px;
+	max-width: 100%;
+	margin: 0 auto;
+
+}
+
+.soluction-area h1{
+   display: block;
+   width: 100%;
+   padding-top: 130px;
+   color: #506a85;
+   font-size: 44px;
+}
+.soluction-area p{
+	font-size: 22px;
+	width: 100%;
+	color: #73879c;
+	padding-top: 42px; 
+}
+.soluction-icon{
+	font-size: 60px;
+	color: #00bc9c;
+}
+.soluction-text h3{
+	font-size: 26px;
+	float: left;
+	color: #506a85;
+
+}
+.soluction-text p{
+	font-size: 16px;
+	color:#8898aa;
+	text-align: left;
+}
+
+.soluction-footer{
+	margin-top: 80px;
+	width: 1170px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+/*
+start checkout area*/
+.checkout{
+	background: #f2f5f7;
+	height:1275px;
+	margin-top: 130px;
+}
+
+.checkout-area-content h1{
+	width: 960px;
+	max-width: 100%;
+	margin: 0 auto;
+	font-size: 44px;
+	color: #506a85;
+	padding-top: 130px;
+}
+.checkout-area-content p{
+	color: #73879c;
+    font-size: 16px;
+    margin-top: 44px;
+	margin:0 auto;
+	max-width: 100%;
+}
+.post-col{
+	background-color: #fff;
+	margin-top: 74px;
+}
+.post-inner-col-img{
+	max-width: 100%;
+}
+.post-inner-col-text h4{
+color: #506a85;
+padding-top: 30px;
+}
+.post-inner-col-text p{
+color: #73879c;
+}
+.carosel{
+	margin-top: 80px;
+}
+.owl-dots{
+	text-align: center;
+	margin-top: 45px;
+	/*color: ;*/
+}
+.owl-dots button{
+	display: inline-block;
+	border: 8px solid #506a85 !important;
+	border-radius: 50px;
+	margin:0 5px;
+	padding-bottom: 135px;
+}
+.owl-dots button.active{
+   border-color: #00bc9c !important;
+}
+/*
+start work area*/
+
+.work-area h1{
+	display: block;
+	width: 100%;
+}
+.work-area-content{
+	width: 960px;
+	max-width: 100%;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: 130px;
+}
+
+.work-area-content h1{
+	width: 100%;
+	font-weight: bold;
+	font-size: 44px;
+	color: #506a85;
+	text-transform: uppercase;
+}
+.work-area-content p{
+	width: 100%;
+	font-size:22px;
+	color: #a3b1bf;
+	margin-top: 45px;
+}
+.work-area-btn{
+	background-color: #00bc9c;
+	border: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 20px 25px;
+	margin-top:44px;
+}
+.work-area-btn:hover{
+	background-color: #506a85;
+}
+.footer-area{
+	background:#2f4052;
+	padding-bottom: 70px;
+	margin-top: 130px;
+}
+.footer-area-content{
+	width: 1170px;
+	max-width: 100%;
+	margin: 0 auto;
+
+}
+.footer-text h5{
+	margin-top: 72px;
+	color: #fff;
+	font-size: 16px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+}
+.footer-text img{
+	
+}
+.footer-text p{
+	color: #808e9c;
+	font-size: 15px;
+}
+.footer-text h6{
+	color:#a3b1bf;
+	padding-top: 10px;
+	font-size: 14px;
+}
+.footer-text-row img{
+	margin-top: 4px;
+}
+.fas{
+	color:#a3b1bf;
+	margin-left: 5px;
+	margin-top: 2px;
+}
+.footer-text fas{
+	color: red;
+}
+
+/*All media queary code here*/
+
+@media screen and (max-width: 400px){
+
+}
